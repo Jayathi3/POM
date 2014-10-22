@@ -2,11 +2,6 @@ package Automation;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
-
-/**
- * Created by RJPG on 22/10/2014.
- */
 
 
 public class smoketest extends Basetest{
@@ -14,7 +9,7 @@ public class smoketest extends Basetest{
 
 
     Reusableclass reusableclass = new Reusableclass();
-Adminclass adminclass = new Adminclass();
+Adminpage adminclass = new Adminpage();
 
     @Test
     public void verifyAdminCanAddSkill() {
