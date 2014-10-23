@@ -3,10 +3,8 @@ package Automation;
 import org.openqa.selenium.By;
 
 
-/**
- * Created by RJPG on 22/10/2014.
- */
-public class Adminclass extends Baseclass {
+
+public class Adminpage extends Baseclass {
 
     public void Addusers() {
         driver.findElement(By.id("menu_admin_viewAdminModule")).click();

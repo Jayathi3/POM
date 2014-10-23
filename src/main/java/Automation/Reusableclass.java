@@ -2,9 +2,7 @@ package Automation;
 
 import org.openqa.selenium.By;
 
-/**
- * Created by RJPG on 22/10/2014.
- */
+
 public class Reusableclass extends Baseclass {
     public void loginAsAdmin(String Username, String Password)
     {

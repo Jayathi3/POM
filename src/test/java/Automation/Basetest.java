@@ -7,9 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by RJPG on 22/10/2014.
- */
+
 public class Basetest extends Baseclass {
 
     @Before

@@ -10,7 +10,7 @@ public class smoketest extends Basetest{
 
     Reusableclass reusableclass = new Reusableclass();
 Adminpage adminclass = new Adminpage();
-
+Timepage timepage=new Timepage();
     @Test
     public void verifyAdminCanAddSkill() {
 
@@ -18,9 +18,17 @@ Adminpage adminclass = new Adminpage();
 
         Assert.assertTrue(reusableclass.isUserLoggedIn());
         adminclass.Addusers();
+    }
+    @Test
+     public void verifyAdmincanviewtimesheets (){
+        reusableclass.loginAsAdmin(username, password);
+        Assert.assertTrue(reusableclass.isUserLoggedIn());
+        timepage.viewemployeetimesheet();
 
+    }
+@Test
+    public void verifyAdmincanADDleave(){
 
+}
 
-
-
-    }}
+}
